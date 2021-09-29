@@ -39,9 +39,7 @@ ul {
   display: flex;
   height: 4.5rem;
   justify-content: center;
-  animation-duration: 8s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
+  
 }
 
 .header-nav{
