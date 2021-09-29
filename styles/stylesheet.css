@@ -119,6 +119,7 @@ ul {
   text-align:center;
   line-height: 1.4;
   color: #fff
+  backdrop-filter: blur(4px);
 
 }
 /*KeyFrames*/
