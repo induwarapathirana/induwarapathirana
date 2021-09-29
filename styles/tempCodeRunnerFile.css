@@ -1,0 +1,43 @@
+
+.header {
+    background-color: #000103;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 6rem;
+    width: auto;
+  }
+  
+  .nav{
+    display: flex;
+  }
+
+  .nav__logo-name {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-right: 1rem;
+  }
+  .nav__list {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+  }
+  
+  .nav__list-item {
+    margin-right: 2rem;
+  }
+  
+  .nav__list-link:link,
+  .nav__list-link:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  
+  .nav__list-link:hover {
+    color: #eee;
+  }
