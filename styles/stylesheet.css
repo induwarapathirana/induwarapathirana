@@ -88,9 +88,9 @@ ul {
 .text-greet{
   position: left;
   width: 24em;
-  margin: 2rem auto;
+  margin: 0.5rem ;
   margin-bottom: 0rem;
-  font-size: 120%;
+  font-size: 180%;
   font-family: 'Anonymous Pro', monospace;
   text-align: left;
   white-space: nowrap;
@@ -105,7 +105,7 @@ ul {
   margin-left: 0rem;
   margin-bottom:0rem;
   border-right: 2px solid rgba(22, 21, 21, 0.75);
-  font-size: 280%;
+  font-size: 380%;
   font-family: 'Anonymous Pro', monospace;
   text-align: left;
   white-space: nowrap;
@@ -116,8 +116,8 @@ ul {
 .text-designation{
   position: left;
   width: 49em;
-  margin: 0rem;
-  font-size: 80%;   
+  margin-left: 0.5rem;
+  font-size:120%;   
   font-family: 'Anonymous Pro', monospace;
 }
 
@@ -136,12 +136,61 @@ from{border-right-color: rgba(32, 30, 30, 0.75);}
 to{border-right-color: transparent;}
 }
 
+.btn-about-me{
+  margin-top: 3rem;
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:2rem;
+}
+
+.btn-about-me:hover{
+  margin-top: 3rem;
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:2rem;
+  box-shadow: 1px 1px 7px #000000;
+}
+
+.btn-about-me:active{
+  margin-top: 3rem;
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:2rem;
+  box-shadow: 1px 1px 4px #000000;
+}
+
 .icon-box{
   display:flex;
+  margin-top:10rem ;
 }
 .icon{
   height:3rem;
   margin:2rem;
+  margin-left: 0rem;
 }
 
 .hero-right{
