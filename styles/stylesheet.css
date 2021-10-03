@@ -38,7 +38,7 @@ ul {
 }
 
 .nav-bar{
-  width:50vw;
+  width:50%;
   height:7rem;
   padding-right:6rem;
   padding-left: 3rem;
@@ -195,15 +195,19 @@ to{border-right-color: transparent;}
 
 .hero-right{
   background-color: #000000;
+  background-image: url("../img/bg.jpg"); 
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: flex-start;
-  width: 50vw;
+  align-content: flex-start;
+  width: 50%;
   height:auto;
   margin: 0rem;
 }
 
 .my-photo{
-  height:90vh;
+  height: 100%;
+  margin-left: 4rem;
   width:auto;
-  align-items: center;
 }
