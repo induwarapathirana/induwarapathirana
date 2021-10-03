@@ -57,6 +57,7 @@ ul {
 }
 
 .header-nav-list:hover{
+  cursor: pointer;
   background-color:azure;
   color:#000000;
   padding:0.7rem;
@@ -137,7 +138,7 @@ to{border-right-color: transparent;}
 }
 
 .btn-about-me{
-  margin-top: 3rem;
+  margin-top: 9rem;
   background-color: #000000; 
   border: none;
   color: white;
@@ -152,7 +153,7 @@ to{border-right-color: transparent;}
 }
 
 .btn-about-me:hover{
-  margin-top: 3rem;
+  margin-top: 9rem;
   background-color: #000000; 
   border: none;
   color: white;
@@ -168,7 +169,7 @@ to{border-right-color: transparent;}
 }
 
 .btn-about-me:active{
-  margin-top: 3rem;
+  margin-top: 9rem;
   background-color: #000000; 
   border: none;
   color: white;
@@ -185,12 +186,36 @@ to{border-right-color: transparent;}
 
 .icon-box{
   display:flex;
-  margin-top:10rem ;
+  margin-top:7rem ;
 }
 .icon{
-  height:3rem;
+  background-color:azure;
+  padding: 0.5rem;
+  border-radius:1rem ;
+  height:4rem;
   margin:2rem;
   margin-left: 0rem;
+  box-shadow: 1px 1px 4px #000000;
+}
+
+.icon:hover{
+  background-color:azure;
+  padding: 0.5rem;
+  border-radius:1rem ;
+  height:4rem;
+  margin:2rem;
+  margin-left: 0rem;
+  box-shadow: 1px 1px 9px #000000;
+}
+
+.icon:active{
+  background-color:azure;
+  padding: 0.5rem;
+  border-radius:1rem ;
+  height:4rem;
+  margin:2rem;
+  margin-left: 0rem;
+  box-shadow: 1px 1px 4px #000000;
 }
 
 .hero-right{
@@ -209,5 +234,76 @@ to{border-right-color: transparent;}
 .my-photo{
   height: 100%;
   margin-left: 4rem;
+  width:auto;
+}
+
+.about-me-section{
+  background-image: linear-gradient(#d4d3d5,#c6c5c8);
+  display:inline;
+}
+
+.bar{
+  background-color: #000000;
+  height:10rem;
+  width:100%;
+  box-shadow: 1px 1px 4px #000000;
+}
+
+.user{
+  display:flex;
+  justify-content:center;
+  margin: 5rem;
+  margin-right: 60rem;
+  margin-left: 60rem;
+  margin-bottom: 3rem;
+  border-color: #000000;
+  border-width: 0.7rem;
+  border-style: solid;
+  align-items: center;
+}
+
+.user-icon{
+  height:4rem;
+  width:auto;
+  margin-left: 3rem;
+
+}
+.about-me-section-header{
+  font-family: 'Anonymous Pro', monospace;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color: #000000;
+  padding:3rem;
+}
+
+.about-me-para{
+  font-family: 'Anonymous Pro', monospace;
+  padding-right:40rem;
+  padding-left: 40rem;
+  justify-content:center;
+  text-align:center;
+  margin-bottom: 5rem;
+}
+
+.end-about-me{
+  border-color: #000000;
+}
+
+.experience-section{
+  margin:10rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.experience{
+  display:flex;
+  justify-content:center;
+}
+
+.experience-icon{
+  align-content:center;
+  height:5rem;
   width:auto;
 }
