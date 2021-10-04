@@ -12,9 +12,10 @@ html {
 }
 
 body {
-  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Anonymous Pro', monospace;
   font-size: 1.6rem;
   background-color: #D7D7D7;
+  background-image: radial-gradient(#9b9494,#D7D7D7 );
 }
 
 ul {
@@ -237,8 +238,7 @@ to{border-right-color: transparent;}
   width:auto;
 }
 
-.about-me-section{
-  background-image: linear-gradient(#d4d3d5,#c6c5c8);
+.body-section{
   display:inline;
 }
 
@@ -249,7 +249,7 @@ to{border-right-color: transparent;}
   box-shadow: 1px 1px 4px #000000;
 }
 
-.user{
+.body-header{
   display:flex;
   justify-content:center;
   margin: 5rem;
@@ -268,7 +268,7 @@ to{border-right-color: transparent;}
   margin-left: 3rem;
 
 }
-.about-me-section-header{
+.body-section-header{
   font-family: 'Anonymous Pro', monospace;
   display:flex;
   justify-content:center;
@@ -286,24 +286,33 @@ to{border-right-color: transparent;}
   margin-bottom: 5rem;
 }
 
-.end-about-me{
-  border-color: #000000;
-}
-
-.experience-section{
-  margin:10rem;
+.experience-list{
   display:flex;
   justify-content:center;
   align-items:center;
 }
 
-.experience{
-  display:flex;
-  justify-content:center;
+.list-header-img{
+  height:4rem;
+  width:auto;
+  
 }
 
-.experience-icon{
-  align-content:center;
-  height:5rem;
-  width:auto;
+.list-header{
+  align-content: center;
+  margin:2rem;
+}
+
+.name-list{
+  display:inline;
+  align-content: flex-start;
+  margin:0rem;
+  margin-left: 40rem;
+  margin-right: 40rem;
+  
+}
+
+.list-items{
+  margin-left: 40rem;
+  margin-right: 40rem;
 }
