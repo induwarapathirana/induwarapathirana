@@ -422,7 +422,7 @@ ul {
   .text-greet{
     position: left;
     width: 100%;
-    margin: 5% ;
+    margin: 1% ;
     margin-bottom: 0rem;
     font-size: 80%;
     text-align: left;
@@ -435,7 +435,7 @@ ul {
     position: left;  
     width: 15em;
     margin: 2rem;
-    margin-left: 5%;
+    margin-left: 1%;
     margin-bottom:0rem;
     border-right: 2px solid rgba(22, 21, 21, 0.75);
     font-size: 180%;
@@ -448,7 +448,7 @@ ul {
   .text-designation{
     position: center;
     width: 90%;
-    margin-left: 5%;
+    margin-left: 1%;
     font-size:65%;   
     
   }
