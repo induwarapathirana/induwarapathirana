@@ -408,6 +408,7 @@ ul {
   }
 
   .hero-left{
+    display: inline;
     justify-content: center;
     padding-left:5rem;
     padding-top: 5rem;
@@ -466,6 +467,11 @@ ul {
   @keyframes blinkTextCursor{
   from{border-right-color: rgba(32, 30, 30, 0.75);}
   to{border-right-color: transparent;}
+  }
+
+  .abt-me-btn{
+    display: flex;
+    justify-content: center;
   }
 
   .btn-about-me{
